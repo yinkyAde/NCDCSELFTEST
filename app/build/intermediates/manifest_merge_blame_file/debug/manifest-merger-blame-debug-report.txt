@@ -1,0 +1,116 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.ncdc_selftest"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:5:5-61:19
+12        android:allowBackup="true"
+12-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\c527b78844be871c44103f6f45a963fb\core-1.1.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:10:9-35
+19        android:theme="@style/AppTheme.NoActionBar" >
+19-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:11:9-52
+20        <activity
+20-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:12:9-21:20
+21            android:name="com.example.ncdc_selftest.Activities.Splash"
+21-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:13:13-46
+22            android:screenOrientation="portrait" >
+22-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:14:13-49
+23            <intent-filter>
+23-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:15:13-20:29
+24                <action android:name="android.intent.action.VIEW" />
+24-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:16:17-69
+24-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:16:25-66
+25                <action android:name="android.intent.action.MAIN" />
+25-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:17:17-69
+25-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:17:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:19:17-77
+27-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:19:27-74
+28            </intent-filter>
+29        </activity>
+30        <activity
+30-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:22:9-30:20
+31            android:name="com.example.ncdc_selftest.Activities.Front_preview"
+31-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:23:13-53
+32            android:screenOrientation="portrait" >
+32-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:24:13-49
+33            <intent-filter>
+33-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:25:13-29:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:17:17-69
+34-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:17:25-66
+35
+36                <category android:name="android.intent.category.DEFAULT" />
+36-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:28:17-76
+36-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:28:27-73
+37            </intent-filter>
+38        </activity>
+39        <activity
+39-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:32:9-40:20
+40            android:name="com.example.ncdc_selftest.Activities.MainActivity"
+40-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:33:13-52
+41            android:screenOrientation="portrait" >
+41-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:34:13-49
+42            <intent-filter>
+42-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:25:13-29:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:17:17-69
+43-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:17:25-66
+44
+45                <category android:name="android.intent.category.DEFAULT" />
+45-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:28:17-76
+45-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:28:27-73
+46            </intent-filter>
+47        </activity>
+48        <activity
+48-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:42:9-44:61
+49            android:name="com.example.ncdc_selftest.Activities.Complaints"
+49-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:43:13-50
+50            android:screenOrientation="portrait" />
+50-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:44:13-49
+51        <activity
+51-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:46:9-48:61
+52            android:name="com.example.ncdc_selftest.Activities.Routine"
+52-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:47:13-47
+53            android:screenOrientation="portrait" />
+53-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:48:13-49
+54        <activity
+54-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:50:9-52:61
+55            android:name="com.example.ncdc_selftest.Activities.Result"
+55-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:51:13-46
+56            android:screenOrientation="portrait" />
+56-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:52:13-49
+57        <activity
+57-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:54:9-56:61
+58            android:name="com.example.ncdc_selftest.Activities.Result2"
+58-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:55:13-47
+59            android:screenOrientation="portrait" />
+59-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:56:13-49
+60        <activity
+60-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:58:9-60:61
+61            android:name="com.example.ncdc_selftest.Activities.Result3"
+61-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:59:13-47
+62            android:screenOrientation="portrait" />
+62-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:60:13-49
+63    </application>
+64
+65</manifest>
