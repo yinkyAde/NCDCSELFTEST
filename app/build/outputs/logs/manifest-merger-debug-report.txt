@@ -1,216 +1,254 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:2:1-63:12
-INJECTED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:2:1-63:12
-INJECTED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:2:1-63:12
-INJECTED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:2:1-63:12
-MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\37ec02f661e3547c5499ecdfd9f3cd1f\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\8392647ca9531c13a8f0d6b7ad086e7e\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\bbc51c53aec70aeae5178e82f15e817a\recyclerview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\ccc4f60e4549c263b614feec2a027fa2\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\add2bdb41de46d90e5d3bd4e75929820\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\dd07e922b5233b833d82ee834e6becf7\appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\abc680e55824c418c024460e31034ed4\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\34085af895daa23049fd0af188e6a001\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\f3997ce16a5c00ae84a772d300d0e1e8\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\ba2af06f417607d7ef1ca9f201a0d139\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\331f61861c2d3a925f2252286afb1f53\loader-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\daa47187fb0f0a7c419d1b10e1677cdd\activity-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\beed28e19d4f55ab2c17aff66e0bc400\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\e0d80e5c178a0db065288a448fc598ef\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\04087833f388d5ffa97a080d757646c2\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\eb11c4797d5d5b24d5dcbbebe26babf4\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\740a70a0c89c8c085b6e012b4bd7790e\customview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\31dc29ba3158cee4b1ca2bf2f6ff141b\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\435f1166e6a428a0025d9cd273cb35a2\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\c527b78844be871c44103f6f45a963fb\core-1.1.0\AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\aa91d8d2653c363bbd5da9d9892260d3\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\c9c8616d74aa0ab3eb457d24b669c685\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\d4ef17d609918d2a5f5a86d1ea02678f\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\0554424e228349ffc3db0700d1324aa1\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\bad233a64070d55cab9a83b26afbf154\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\7acef2a7bfef3795312317efec15d83e\savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\9d52be8c254a228a91eaf05f51d52923\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\9093771a98b01557e81860f4122d7892\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\7ec682ca46f5c90ea9a9e0cba0c0310a\print-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\420f294924962582b4c42c622af43461\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\66e997bde0b6ece28f7fd36f5f4a1584\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\8787729f29cf7add1bc29c81caccddfd\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:2:1-63:12
-INJECTED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:2:1-63:12
-INJECTED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:2:1-63:12
+ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:2:1-64:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\78d780e7e979f381c0cb40b5ded8691d\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\6d16290c97378708d50718ed6ea0b1c0\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-database:16.0.4] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\2a298af55c5c34386b637cc869d3593f\jetified-firebase-database-16.0.4\AndroidManifest.xml:15:1-25:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\55be576b1fb3cff6f9499b5d3d928b79\recyclerview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\91482f6452f8e2279fb096c6daca6c99\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\5bef34a62e429d50c164d3061aef3419\jetified-play-services-base-16.0.1\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\6331f9463bed117edda19b061beb1c47\jetified-firebase-common-16.0.3\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\d7b6bc6137b2bd7b1a1c21dac6543ac0\jetified-play-services-tasks-16.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-database-collection:16.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\ee8d1d2e67fe5cefc11f0f771a27a22e\firebase-database-collection-16.0.0\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\e1865a840c4c3e9534915f41c2eadcc2\jetified-play-services-basement-16.0.1\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\ab4d72fdc4263a03fc609ea1b14fbe0c\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\f02024937df418748afbe331234aa006\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\c5d349b176c72adc126b4a8399f3d7e2\appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\33904a9952e04540992fd4e899a6e29f\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\599a956fc5880721b736c36d7a2a90a9\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\ac681daf82c56bbcb32cd485fc064a28\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\45739e064fd8ad2faa9c3686c49a0516\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\704f77bb835d112513bfb707984cbdc1\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\dbd8a55495c80c3c46794875c0ca53fb\activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\9a22d52a93b71a6bbceaa7c9c006adaa\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\37adb3ef701a2867e8769c0927655fa4\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\793a97fec7a6dab603ab3ae8209f13cc\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\ab3a184af13a3a82dd474493bbfa3bb1\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\a6c2f02f5bfac95e56aa3f49c83ac397\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\190ec68b3797b99e27d4d5621c313ff7\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\cea9d07eed335b7021facd428f08a0ed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\a854b56cd163a08cc70affd1c719ec31\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\b6b5951a20836cbe843a8e306a5032d5\core-1.1.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\25fdd493a672d7b5d446aa2af8c06677\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\ef2e7569653745383f2a88f459070658\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\e542a78b280a084fd48769af2f842423\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\d673f12e92e211a8b9a89c6bdf1bf2c5\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\7d03fc8e0e7e41d5653ebb51e8c035fb\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\562a45b8cb8a3696f4fae85d73cb39c0\savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\a258954b59e52ea64468e7c8b611841e\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\ac265cfd5669b686a3cba2f45a6e36b7\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\7fcbef39c4d63cdee011faaa088ab3cd\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\67688366c6a6c762e55784305fcbc09b\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\f5e5093a6d2ffb564f346d2769a020dc\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\c92e9c6549150a4bd8eb347f54ac769d\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:2:1-64:12
 	package
 		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:3:5-40
 		INJECTED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:2:1-63:12
+		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:2:1-64:12
 		INJECTED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:2:1-63:12
+		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:2:1-64:12
 		INJECTED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:5:5-66
+MERGED from [com.google.firebase:firebase-database:16.0.4] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\2a298af55c5c34386b637cc869d3593f\jetified-firebase-database-16.0.4\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-database:16.0.4] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\2a298af55c5c34386b637cc869d3593f\jetified-firebase-database-16.0.4\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:5:5-61:19
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\8392647ca9531c13a8f0d6b7ad086e7e\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\8392647ca9531c13a8f0d6b7ad086e7e\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
-MERGED from [androidx.core:core:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\c527b78844be871c44103f6f45a963fb\core-1.1.0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\c527b78844be871c44103f6f45a963fb\core-1.1.0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\c9c8616d74aa0ab3eb457d24b669c685\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\c9c8616d74aa0ab3eb457d24b669c685\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:6:5-62:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\6d16290c97378708d50718ed6ea0b1c0\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\6d16290c97378708d50718ed6ea0b1c0\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\5bef34a62e429d50c164d3061aef3419\jetified-play-services-base-16.0.1\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\5bef34a62e429d50c164d3061aef3419\jetified-play-services-base-16.0.1\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\6331f9463bed117edda19b061beb1c47\jetified-firebase-common-16.0.3\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\6331f9463bed117edda19b061beb1c47\jetified-firebase-common-16.0.3\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\d7b6bc6137b2bd7b1a1c21dac6543ac0\jetified-play-services-tasks-16.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\d7b6bc6137b2bd7b1a1c21dac6543ac0\jetified-play-services-tasks-16.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\e1865a840c4c3e9534915f41c2eadcc2\jetified-play-services-basement-16.0.1\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\e1865a840c4c3e9534915f41c2eadcc2\jetified-play-services-basement-16.0.1\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\b6b5951a20836cbe843a8e306a5032d5\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\b6b5951a20836cbe843a8e306a5032d5\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\ef2e7569653745383f2a88f459070658\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\ef2e7569653745383f2a88f459070658\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\c527b78844be871c44103f6f45a963fb\core-1.1.0\AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\b6b5951a20836cbe843a8e306a5032d5\core-1.1.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:11:9-35
 	android:label
-		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:9:9-41
 	android:roundIcon
-		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:10:9-54
 	android:icon
-		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:8:9-43
 	android:allowBackup
-		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:7:9-35
 	android:theme
-		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:11:9-52
+		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:12:9-52
 activity#com.example.ncdc_selftest.Activities.Splash
-ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:12:9-21:20
+ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:13:9-22:20
 	android:screenOrientation
-		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:14:13-49
+		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:15:13-49
 	android:name
-		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:13:13-46
+		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:14:13-46
 intent-filter#action:name:android.intent.action.MAIN+action:name:android.intent.action.VIEW+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:15:13-20:29
+ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:16:13-21:29
 action#android.intent.action.VIEW
-ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:16:17-69
-	android:name
-		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:16:25-66
-action#android.intent.action.MAIN
 ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:17:17-69
 	android:name
 		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:17:25-66
+action#android.intent.action.MAIN
+ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:18:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:19:17-77
+ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:19:27-74
+		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:20:27-74
 activity#com.example.ncdc_selftest.Activities.Front_preview
-ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:22:9-30:20
+ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:23:9-31:20
 	android:screenOrientation
-		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:24:13-49
+		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:25:13-49
 	android:name
-		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:23:13-53
+		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:24:13-53
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT
-ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:25:13-29:29
+ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:26:13-30:29
 category#android.intent.category.DEFAULT
-ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:28:17-76
+ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:29:17-76
 	android:name
-		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:28:27-73
+		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:29:27-73
 activity#com.example.ncdc_selftest.Activities.MainActivity
-ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:32:9-40:20
+ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:33:9-41:20
 	android:screenOrientation
-		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:34:13-49
+		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:35:13-49
 	android:name
-		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:33:13-52
+		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:34:13-52
 activity#com.example.ncdc_selftest.Activities.Complaints
-ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:42:9-44:61
+ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:43:9-45:61
 	android:screenOrientation
-		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:44:13-49
+		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:45:13-49
 	android:name
-		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:43:13-50
-activity#com.example.ncdc_selftest.Activities.Routine
-ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:46:9-48:61
+		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:44:13-50
+activity#com.example.ncdc_selftest.Activities.Liveupdate
+ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:47:9-49:61
 	android:screenOrientation
-		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:48:13-49
+		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:49:13-49
 	android:name
-		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:47:13-47
+		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:48:13-50
 activity#com.example.ncdc_selftest.Activities.Result
-ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:50:9-52:61
+ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:51:9-53:61
 	android:screenOrientation
-		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:52:13-49
+		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:53:13-49
 	android:name
-		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:51:13-46
+		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:52:13-46
 activity#com.example.ncdc_selftest.Activities.Result2
-ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:54:9-56:61
+ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:55:9-57:61
 	android:screenOrientation
-		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:56:13-49
+		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:57:13-49
 	android:name
-		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:55:13-47
+		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:56:13-47
 activity#com.example.ncdc_selftest.Activities.Result3
-ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:58:9-60:61
+ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:59:9-61:61
 	android:screenOrientation
-		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:60:13-49
+		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:61:13-49
 	android:name
-		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:59:13-47
+		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:60:13-47
 uses-sdk
 INJECTED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml
-MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\37ec02f661e3547c5499ecdfd9f3cd1f\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\37ec02f661e3547c5499ecdfd9f3cd1f\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\8392647ca9531c13a8f0d6b7ad086e7e\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\8392647ca9531c13a8f0d6b7ad086e7e\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\bbc51c53aec70aeae5178e82f15e817a\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\bbc51c53aec70aeae5178e82f15e817a\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\ccc4f60e4549c263b614feec2a027fa2\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\ccc4f60e4549c263b614feec2a027fa2\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\add2bdb41de46d90e5d3bd4e75929820\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\add2bdb41de46d90e5d3bd4e75929820\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\dd07e922b5233b833d82ee834e6becf7\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\dd07e922b5233b833d82ee834e6becf7\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\abc680e55824c418c024460e31034ed4\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\abc680e55824c418c024460e31034ed4\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\34085af895daa23049fd0af188e6a001\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\34085af895daa23049fd0af188e6a001\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\f3997ce16a5c00ae84a772d300d0e1e8\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\f3997ce16a5c00ae84a772d300d0e1e8\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\ba2af06f417607d7ef1ca9f201a0d139\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\ba2af06f417607d7ef1ca9f201a0d139\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\331f61861c2d3a925f2252286afb1f53\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\331f61861c2d3a925f2252286afb1f53\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\daa47187fb0f0a7c419d1b10e1677cdd\activity-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\daa47187fb0f0a7c419d1b10e1677cdd\activity-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\beed28e19d4f55ab2c17aff66e0bc400\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\beed28e19d4f55ab2c17aff66e0bc400\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\e0d80e5c178a0db065288a448fc598ef\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\e0d80e5c178a0db065288a448fc598ef\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\04087833f388d5ffa97a080d757646c2\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\04087833f388d5ffa97a080d757646c2\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\eb11c4797d5d5b24d5dcbbebe26babf4\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\eb11c4797d5d5b24d5dcbbebe26babf4\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\740a70a0c89c8c085b6e012b4bd7790e\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\740a70a0c89c8c085b6e012b4bd7790e\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\31dc29ba3158cee4b1ca2bf2f6ff141b\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\31dc29ba3158cee4b1ca2bf2f6ff141b\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\435f1166e6a428a0025d9cd273cb35a2\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\435f1166e6a428a0025d9cd273cb35a2\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\c527b78844be871c44103f6f45a963fb\core-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\c527b78844be871c44103f6f45a963fb\core-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\aa91d8d2653c363bbd5da9d9892260d3\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\aa91d8d2653c363bbd5da9d9892260d3\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\c9c8616d74aa0ab3eb457d24b669c685\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\c9c8616d74aa0ab3eb457d24b669c685\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\d4ef17d609918d2a5f5a86d1ea02678f\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\d4ef17d609918d2a5f5a86d1ea02678f\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\0554424e228349ffc3db0700d1324aa1\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\0554424e228349ffc3db0700d1324aa1\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\bad233a64070d55cab9a83b26afbf154\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\bad233a64070d55cab9a83b26afbf154\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\7acef2a7bfef3795312317efec15d83e\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\7acef2a7bfef3795312317efec15d83e\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\9d52be8c254a228a91eaf05f51d52923\documentfile-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\9d52be8c254a228a91eaf05f51d52923\documentfile-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\9093771a98b01557e81860f4122d7892\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\9093771a98b01557e81860f4122d7892\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\7ec682ca46f5c90ea9a9e0cba0c0310a\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\7ec682ca46f5c90ea9a9e0cba0c0310a\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\420f294924962582b4c42c622af43461\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\420f294924962582b4c42c622af43461\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\66e997bde0b6ece28f7fd36f5f4a1584\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\66e997bde0b6ece28f7fd36f5f4a1584\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\8787729f29cf7add1bc29c81caccddfd\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\8787729f29cf7add1bc29c81caccddfd\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\78d780e7e979f381c0cb40b5ded8691d\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\78d780e7e979f381c0cb40b5ded8691d\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\6d16290c97378708d50718ed6ea0b1c0\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\6d16290c97378708d50718ed6ea0b1c0\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database:16.0.4] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\2a298af55c5c34386b637cc869d3593f\jetified-firebase-database-16.0.4\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-database:16.0.4] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\2a298af55c5c34386b637cc869d3593f\jetified-firebase-database-16.0.4\AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\55be576b1fb3cff6f9499b5d3d928b79\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\55be576b1fb3cff6f9499b5d3d928b79\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\91482f6452f8e2279fb096c6daca6c99\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\91482f6452f8e2279fb096c6daca6c99\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\5bef34a62e429d50c164d3061aef3419\jetified-play-services-base-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\5bef34a62e429d50c164d3061aef3419\jetified-play-services-base-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\6331f9463bed117edda19b061beb1c47\jetified-firebase-common-16.0.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\6331f9463bed117edda19b061beb1c47\jetified-firebase-common-16.0.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\d7b6bc6137b2bd7b1a1c21dac6543ac0\jetified-play-services-tasks-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\d7b6bc6137b2bd7b1a1c21dac6543ac0\jetified-play-services-tasks-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\ee8d1d2e67fe5cefc11f0f771a27a22e\firebase-database-collection-16.0.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\ee8d1d2e67fe5cefc11f0f771a27a22e\firebase-database-collection-16.0.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\e1865a840c4c3e9534915f41c2eadcc2\jetified-play-services-basement-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\e1865a840c4c3e9534915f41c2eadcc2\jetified-play-services-basement-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\ab4d72fdc4263a03fc609ea1b14fbe0c\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\ab4d72fdc4263a03fc609ea1b14fbe0c\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\f02024937df418748afbe331234aa006\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\f02024937df418748afbe331234aa006\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\c5d349b176c72adc126b4a8399f3d7e2\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\c5d349b176c72adc126b4a8399f3d7e2\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\33904a9952e04540992fd4e899a6e29f\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\33904a9952e04540992fd4e899a6e29f\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\599a956fc5880721b736c36d7a2a90a9\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\599a956fc5880721b736c36d7a2a90a9\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\ac681daf82c56bbcb32cd485fc064a28\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\ac681daf82c56bbcb32cd485fc064a28\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\45739e064fd8ad2faa9c3686c49a0516\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\45739e064fd8ad2faa9c3686c49a0516\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\704f77bb835d112513bfb707984cbdc1\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\704f77bb835d112513bfb707984cbdc1\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\dbd8a55495c80c3c46794875c0ca53fb\activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\dbd8a55495c80c3c46794875c0ca53fb\activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\9a22d52a93b71a6bbceaa7c9c006adaa\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\9a22d52a93b71a6bbceaa7c9c006adaa\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\37adb3ef701a2867e8769c0927655fa4\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\37adb3ef701a2867e8769c0927655fa4\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\793a97fec7a6dab603ab3ae8209f13cc\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\793a97fec7a6dab603ab3ae8209f13cc\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\ab3a184af13a3a82dd474493bbfa3bb1\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\ab3a184af13a3a82dd474493bbfa3bb1\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\a6c2f02f5bfac95e56aa3f49c83ac397\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\a6c2f02f5bfac95e56aa3f49c83ac397\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\190ec68b3797b99e27d4d5621c313ff7\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\190ec68b3797b99e27d4d5621c313ff7\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\cea9d07eed335b7021facd428f08a0ed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\cea9d07eed335b7021facd428f08a0ed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\a854b56cd163a08cc70affd1c719ec31\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\a854b56cd163a08cc70affd1c719ec31\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\b6b5951a20836cbe843a8e306a5032d5\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\b6b5951a20836cbe843a8e306a5032d5\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\25fdd493a672d7b5d446aa2af8c06677\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\25fdd493a672d7b5d446aa2af8c06677\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\ef2e7569653745383f2a88f459070658\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\ef2e7569653745383f2a88f459070658\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\e542a78b280a084fd48769af2f842423\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\e542a78b280a084fd48769af2f842423\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\d673f12e92e211a8b9a89c6bdf1bf2c5\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\d673f12e92e211a8b9a89c6bdf1bf2c5\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\7d03fc8e0e7e41d5653ebb51e8c035fb\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\7d03fc8e0e7e41d5653ebb51e8c035fb\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\562a45b8cb8a3696f4fae85d73cb39c0\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\562a45b8cb8a3696f4fae85d73cb39c0\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\a258954b59e52ea64468e7c8b611841e\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\a258954b59e52ea64468e7c8b611841e\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\ac265cfd5669b686a3cba2f45a6e36b7\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\ac265cfd5669b686a3cba2f45a6e36b7\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\7fcbef39c4d63cdee011faaa088ab3cd\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\7fcbef39c4d63cdee011faaa088ab3cd\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\67688366c6a6c762e55784305fcbc09b\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\67688366c6a6c762e55784305fcbc09b\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\f5e5093a6d2ffb564f346d2769a020dc\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\f5e5093a6d2ffb564f346d2769a020dc\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\c92e9c6549150a4bd8eb347f54ac769d\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\c92e9c6549150a4bd8eb347f54ac769d\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
 INJECTED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
@@ -221,3 +259,31 @@ INJECTED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\An
 		INJECTED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml
 		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-database:16.0.4] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\2a298af55c5c34386b637cc869d3593f\jetified-firebase-database-16.0.4\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-database:16.0.4] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\2a298af55c5c34386b637cc869d3593f\jetified-firebase-database-16.0.4\AndroidManifest.xml:22:22-76
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\5bef34a62e429d50c164d3061aef3419\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\5bef34a62e429d50c164d3061aef3419\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\5bef34a62e429d50c164d3061aef3419\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\5bef34a62e429d50c164d3061aef3419\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\6331f9463bed117edda19b061beb1c47\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\6331f9463bed117edda19b061beb1c47\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\6331f9463bed117edda19b061beb1c47\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\6331f9463bed117edda19b061beb1c47\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\6331f9463bed117edda19b061beb1c47\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\e1865a840c4c3e9534915f41c2eadcc2\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\e1865a840c4c3e9534915f41c2eadcc2\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\e1865a840c4c3e9534915f41c2eadcc2\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58

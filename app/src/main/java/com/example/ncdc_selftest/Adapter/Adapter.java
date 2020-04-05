@@ -13,6 +13,7 @@ import androidx.annotation.NonNull;
 import androidx.viewpager.widget.PagerAdapter;
 
 import com.example.ncdc_selftest.Activities.Result;
+import com.example.ncdc_selftest.Activities.Result3;
 import com.example.ncdc_selftest.Model.Model;
 import com.example.ncdc_selftest.R;
 
@@ -91,7 +92,7 @@ public class Adapter extends PagerAdapter {
                 clickcount = clickcount + 1;
 
                 if (clickcount == 12) {
-                    Intent intent = new Intent(context, Result.class);
+                    Intent intent = new Intent(context, Result3.class);
                     context.startActivity(intent);
                 }
             }

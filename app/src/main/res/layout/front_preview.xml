@@ -34,7 +34,7 @@
         android:id="@+id/button3"
         android:layout_width="225dp"
         android:layout_height="50dp"
-        android:text="Routine SelfTest"
+        android:text="Live Update"
         android:textStyle="bold"
         android:textSize="15dp"
         android:background="@drawable/button_preview"

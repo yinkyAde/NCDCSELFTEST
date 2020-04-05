@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.ncdc_selftest">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -44,7 +45,7 @@
             android:screenOrientation="portrait"></activity>
 
         <activity
-            android:name=".Activities.Routine"
+            android:name=".Activities.Liveupdate"
             android:screenOrientation="portrait"></activity>
 
         <activity

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Israel Aderoju\\Desktop\\300l\\NCDC_SELFTEST\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
+            "outputFile": "C:\\Users\\Israel Aderoju\\Desktop\\300l\\NCDC SELFTEST\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Israel Aderoju\\.gradle\\caches\\transforms-2\\files-2.1\\ccc4f60e4549c263b614feec2a027fa2\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\Israel Aderoju\\.gradle\\caches\\transforms-2\\files-2.1\\91482f6452f8e2279fb096c6daca6c99\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Israel Aderoju\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\Israel Aderoju\\.gradle\\caches\\transforms-2\\files-2.1\\78d780e7e979f381c0cb40b5ded8691d\\appcompat-1.1.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,37,41,42,43,44",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
