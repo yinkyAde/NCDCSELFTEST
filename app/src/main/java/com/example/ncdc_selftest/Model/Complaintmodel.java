@@ -11,7 +11,7 @@ public class Complaintmodel {
     private String edittexthowlong;
     private String edittextcountries;
     private String chkboxhistory;
-    private int Age;
+    private String Age;
     private String date;
 
 
@@ -98,11 +98,11 @@ public class Complaintmodel {
         this. chkboxhistory =  chkboxhistory;
     }
 
-    public int getAge() {
+    public String getAge() {
         return Age;
     }
 
-    public void setAge(int age) {
+    public void setAge(String age) {
         Age = age;
     }
 

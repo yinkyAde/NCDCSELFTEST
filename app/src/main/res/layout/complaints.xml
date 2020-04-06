@@ -122,6 +122,7 @@
                 android:layout_marginRight="8dp"
                 android:layout_marginLeft="8dp"
                 android:hint="Enter your age"
+                android:inputType="number"
                 android:gravity="center" />
 
         </androidx.cardview.widget.CardView>

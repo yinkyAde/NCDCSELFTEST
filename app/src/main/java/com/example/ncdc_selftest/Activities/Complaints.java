@@ -14,6 +14,8 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.ncdc_selftest.Model.Complaintmodel;
+import com.example.ncdc_selftest.Model.Medicalhistory;
+import com.example.ncdc_selftest.Model.Symptoms;
 import com.example.ncdc_selftest.R;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -39,7 +41,11 @@ public class Complaints extends AppCompatActivity {
     CheckBox checkBox81, checkBox82, checkBox83, checkBox84, checkBox85, checkBox86, checkBox87, checkBox88, checkBox89, checkBox90;
     CheckBox checkBox91, checkBox92, checkBox93, checkBox94;
     DatabaseReference reference;
+    DatabaseReference reference1;
     Complaintmodel complaintmodel;
+    DatabaseReference reference2;
+    Medicalhistory medicalhistory;
+    Symptoms symptoms;
     long maxid=0;
 
     @Override
@@ -47,7 +53,11 @@ public class Complaints extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.complaints);
         reference = FirebaseDatabase.getInstance().getReference().child("Complaints");
+        reference1 = FirebaseDatabase.getInstance().getReference().child("Medical History");
+        reference2 = FirebaseDatabase.getInstance().getReference().child("Symptoms");
         complaintmodel = new Complaintmodel();
+        medicalhistory = new Medicalhistory();
+        symptoms = new Symptoms();
         button = (Button) findViewById(R.id.submit_btn);
         editText1 = (EditText) findViewById(R.id.edittext_name);
         editText2 = (EditText) findViewById(R.id.edittext_address);
@@ -187,12 +197,12 @@ public class Complaints extends AppCompatActivity {
                 String text8 = editText9.getText().toString().trim();
                 String text9 = editText10.getText().toString().trim();
                 String text10 = editText11.getText().toString().trim();
-                int age = Integer.parseInt(editText4.getText().toString().trim());
+                String text11 =   editText4.getText().toString().trim();
 
                 complaintmodel.setEdittextname(text1);
                 complaintmodel.setEdittextaddress(text2);
                 complaintmodel.setDate(text3);
-                complaintmodel.setAge(age);
+                complaintmodel.setAge(text11);
                 complaintmodel.setEdittexthistory(text4);
                 complaintmodel.setEdittextmedication(text5);
                 complaintmodel.setEdittextallergies(text6);
@@ -200,205 +210,483 @@ public class Complaints extends AppCompatActivity {
                 complaintmodel.setEdittexttavelname(text8);
                 complaintmodel.setEdittexthowlong(text9);
                 complaintmodel.setEdittextcountries(text10);
-                reference.child(String.valueOf(maxid+1)).setValue(complaintmodel);
-                Toast.makeText(getApplicationContext(),"Successful",Toast.LENGTH_SHORT).show();
+
 
 
                 String text = "";
                 if (checkBox1.isChecked()) {
-                    reference.child("1").setValue("Anemia");
+                    medicalhistory.setAnemia("Anemia");
+                    reference1.child(String.valueOf((maxid+1))).setValue(medicalhistory);
                     text = "Anemia";
-                } else if (checkBox2.isChecked()) {
-                    reference.child("2").setValue("Heart Disease");
+                } else {}
+                if (checkBox2.isChecked()) {
+                    medicalhistory.setHeartdisease("Heart Disease");
+                    reference1.child(String.valueOf((maxid+1))).setValue(medicalhistory);
                     text = "Heart Disease";
-                } else if (checkBox3.isChecked()) {
-                    reference.child("3").setValue("Heart Disease");
+                } else{}
+                if (checkBox3.isChecked()) {
+                    medicalhistory.setHbp("High Blood Pressure");
+                    reference1.child(String.valueOf((maxid+1))).setValue(medicalhistory);
                     text = "High Blood Pressure";
-                } else if (checkBox4.isChecked()) {
-
+                } else{}
+                if (checkBox4.isChecked()) {
+                    medicalhistory.setRheumatic("Rheumatic Fever");
+                    reference1.child(String.valueOf((maxid+1))).setValue(medicalhistory);
                     text = "Rheumatic Fever";
-                } else if (checkBox5.isChecked()) {
+                } else {}
+                if (checkBox5.isChecked()) {
+                    medicalhistory.setMital("Mital Value Prolapse");
+                    reference1.child(String.valueOf((maxid+1))).setValue(medicalhistory);
                     text = "Mital Value Prolapse";
-                } else if (checkBox6.isChecked()) {
+                } else{}
+                if (checkBox6.isChecked()) {
+                    medicalhistory.setThprob("Th problem");
+                    reference1.child(String.valueOf((maxid+1))).setValue(medicalhistory);
                     text = "Th problem";
-                } else if (checkBox7.isChecked()) {
+                } else{}
+                if (checkBox7.isChecked()) {
+                    medicalhistory.setCancer("Cancer");
+                    reference1.child(String.valueOf((maxid+1))).setValue(medicalhistory);
                     text = "Cancer";
-                } else if (checkBox8.isChecked()) {
+                } else {}
+                if (checkBox8.isChecked()) {
+                    medicalhistory.setGall("Gall Bladder Disease");
+                    reference1.child(String.valueOf((maxid+1))).setValue(medicalhistory);
                     text = "Gall Bladder Disease";
-                } else if (checkBox9.isChecked()) {
+                } else {}
+                if (checkBox9.isChecked()) {
+                    medicalhistory.setBloodtransfusion("Blood Transfusion");
+                    reference1.child(String.valueOf((maxid+1))).setValue(medicalhistory);
                     text = "Blood Transfusion";
-                } else if (checkBox10.isChecked()) {
+                } else{}
+                if (checkBox10.isChecked()) {
+                    medicalhistory.setPelvic("Pelvic Infection");
+                    reference1.child(String.valueOf((maxid+1))).setValue(medicalhistory);
                     text = "Pelvic Infection";
-                } else if (checkBox11.isChecked()) {
+                } else{}
+                if (checkBox11.isChecked()) {
+                    medicalhistory.setBladder("Bladdder Infection");
+                    reference1.child(String.valueOf((maxid+1))).setValue(medicalhistory);
                     text = "Bladdder Infection";
-                } else if (checkBox12.isChecked()) {
+                } else {}
+                if (checkBox12.isChecked()) {
+                    medicalhistory.setGenital("Genital Herpes");
+                    reference1.child(String.valueOf((maxid+1))).setValue(medicalhistory);
                     text = "Genital Herpes";
-                } else if (checkBox13.isChecked()) {
+                } else{}
+                if (checkBox13.isChecked()) {
+                    medicalhistory.setSeizure("Seizures");
+                    reference1.child(String.valueOf((maxid+1))).setValue(medicalhistory);
                     text = "Seizures";
-                } else if (checkBox14.isChecked()) {
+                } else{}
+                if (checkBox14.isChecked()) {
+                    medicalhistory.setMigraines("Migraines");
+                    reference1.child(String.valueOf((maxid+1))).setValue(medicalhistory);
                     text = "Migraines";
-                } else if (checkBox15.isChecked()) {
+                } else{}
+                if (checkBox15.isChecked()) {
+                    medicalhistory.setLiver("Liver Disease");
+                    reference1.child(String.valueOf((maxid+1))).setValue(medicalhistory);
                     text = "Liver Disease";
-                } else if (checkBox16.isChecked()) {
+                } else {}
+                if (checkBox16.isChecked()) {
+                    medicalhistory.setDepression("Depression/Anxiety");
+                    reference1.child(String.valueOf((maxid+1))).setValue(medicalhistory);
                     text = "Depression/Anxiety";
-                } else if (checkBox17.isChecked()) {
+                } else{}
+                if (checkBox17.isChecked()) {
+                    medicalhistory.setDrug("Drug or Alcohol Problem");
+                    reference1.child(String.valueOf((maxid+1))).setValue(medicalhistory);
                     text = "Drug or Alcohol Problem";
-                } else if (checkBox18.isChecked()) {
+                } else {}
+                if (checkBox18.isChecked()) {
+                    medicalhistory.setGonorrhhea("Gonorrhea/Syphills/Chlamydia");
+                    reference1.child(String.valueOf((maxid+1))).setValue(medicalhistory);
                     text = "Gonorrhea/Syphills/Chlamydia";
-                } else if (checkBox19.isChecked()) {
+                } else{}
+                if (checkBox19.isChecked()) {
+                    medicalhistory.setAsthma("Asthma");
+                    reference1.child(String.valueOf((maxid+1))).setValue(medicalhistory);
                     text = "Asthma";
-                } else if (checkBox20.isChecked()) {
+                } else{}
+                if (checkBox20.isChecked()) {
+                    medicalhistory.setPneumonia("Pneumonia");
+                    reference1.child(String.valueOf((maxid+1))).setValue(medicalhistory);
                     text = "Pneumonia";
-                } else if (checkBox21.isChecked()) {
+                } else{}
+                if (checkBox21.isChecked()) {
+                    medicalhistory.setDiabetes("Diabetes");
+                    reference1.child(String.valueOf((maxid+1))).setValue(medicalhistory);
                     text = "Diabetes";
-                } else if (checkBox22.isChecked()) {
+                } else{}
+                if (checkBox22.isChecked()) {
+                    medicalhistory.setSickelcell("Sickel Cell Trait");
+                    reference1.child(String.valueOf((maxid+1))).setValue(medicalhistory);
                     text = "Sickel Cell Trait";
-                } else if (checkBox23.isChecked()) {
+                } else{}
+                if (checkBox23.isChecked()) {
+                    medicalhistory.setBloodclot("Blood clot in legs/lung");
+                    reference1.child(String.valueOf((maxid+1))).setValue(medicalhistory);
                     text = "Blood clot in legs/lung";
-                } else if (checkBox24.isChecked()) {
+                } else{}
+                if (checkBox24.isChecked()) {
+                    medicalhistory.setMalaria("Malaria");
+                    reference1.child(String.valueOf((maxid+1))).setValue(medicalhistory);
                     text = "Malaria";
-                } else if (checkBox25.isChecked()) {
+                } else{}
+                if (checkBox25.isChecked()) {
+                    medicalhistory.setMedicationyes("Yes");
+                    reference1.child(String.valueOf((maxid+1))).setValue(medicalhistory);
                     text = "Yes";
-                } else if (checkBox26.isChecked()) {
+                } else{}
+                if (checkBox26.isChecked()) {
+                    medicalhistory.setMedicationno("No");
+                    reference1.child(String.valueOf((maxid+1))).setValue(medicalhistory);
                     text = "No";
-                } else if (checkBox27.isChecked()) {
+                } else{}
+                if (checkBox27.isChecked()) {
+                    medicalhistory.setAllergiesyes("Yes");
+                    reference1.child(String.valueOf((maxid+1))).setValue(medicalhistory);
                     text = "Yes";
-                } else if (checkBox28.isChecked()) {
+                } else{}
+                if (checkBox28.isChecked()) {
+                    medicalhistory.setAllergiesno("N0");
+                    reference1.child(String.valueOf((maxid+1))).setValue(medicalhistory);
                     text = "No";
-                } else if (checkBox29.isChecked()) {
+                } else{}
+                if (checkBox29.isChecked()) {
+                    medicalhistory.setTravelhistoryyes("Yes");
+                    reference1.child(String.valueOf((maxid+1))).setValue(medicalhistory);
                     text = "Yes";
-                } else if (checkBox30.isChecked()) {
+                } else{}
+                if (checkBox30.isChecked()) {
+                    medicalhistory.setTravelhistoryno("No");
+                    reference1.child(String.valueOf((maxid+1))).setValue(medicalhistory);
                     text = "No";
-                } else if (checkBox31.isChecked()) {
+                } else{}
+                if (checkBox31.isChecked()) {
+                    symptoms.setFeveryes("Yes");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "Yes";
-                } else if (checkBox32.isChecked()) {
+                } else{}
+                if (checkBox32.isChecked()) {
+                    symptoms.setFeverno("No");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "No";
-                } else if (checkBox33.isChecked()) {
+                } else {}
+                if (checkBox33.isChecked()) {
+                    symptoms.setWeightyes("Yes");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "Yes";
-                } else if (checkBox34.isChecked()) {
+                } else{}
+                if (checkBox34.isChecked()) {
+                    symptoms.setWeightno("No");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "No";
-                } else if (checkBox35.isChecked()) {
+                } else{}
+                if (checkBox35.isChecked()) {
+                    symptoms.setHeadacheyes("Yes");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "Yes";
-                } else if (checkBox36.isChecked()) {
+                } else {}
+                if (checkBox36.isChecked()) {
+                    symptoms.setHeadacheno("No");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "No";
-                } else if (checkBox37.isChecked()) {
+                } else{}
+                if (checkBox37.isChecked()) {
+                    symptoms.setBlurredyes("Yes");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "Yes";
-                } else if (checkBox38.isChecked()) {
+                } else {}
+                if (checkBox38.isChecked()) {
+                    symptoms.setBlurredno("No");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "No";
-                } else if (checkBox39.isChecked()) {
+                } else{}
+                if (checkBox39.isChecked()) {
+                    symptoms.setDvisionyes("Yes");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "Yes";
-                } else if (checkBox40.isChecked()) {
+                } else{}
+                if (checkBox40.isChecked()) {
+                    symptoms.setDvisionno("No");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "No";
-                } else if (checkBox41.isChecked()) {
+                } else{}
+                if (checkBox41.isChecked()) {
+                    symptoms.setVisionyes("Yes");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "Yes";
-                } else if (checkBox42.isChecked()) {
+                } else{}
+                if (checkBox42.isChecked()) {
+                    symptoms.setVisionno("No");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "No";
-                } else if (checkBox43.isChecked()) {
+                } else{}
+                if (checkBox43.isChecked()) {
+                    symptoms.setHayfeveryes("Yes");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "Yes";
-                } else if (checkBox44.isChecked()) {
+                } else{}
+                if (checkBox44.isChecked()) {
+                    symptoms.setHayfeverno("No");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "No";
-                } else if (checkBox45.isChecked()) {
+                } else{}
+                if (checkBox45.isChecked()) {
+                    symptoms.setMedicationsyes("Yes");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "Yes";
-                } else if (checkBox46.isChecked()) {
+                } else{}
+                if (checkBox46.isChecked()) {
+                    symptoms.setMedicationsno("No");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "No";
-                } else if (checkBox47.isChecked()) {
+                } else{}
+                if (checkBox47.isChecked()) {
+                    symptoms.setDizzyes("Yes");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "Yes";
-                } else if (checkBox48.isChecked()) {
+                } else{}
+                if (checkBox48.isChecked()) {
+                    symptoms.setDizzno("No");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "No";
-                } else if (checkBox49.isChecked()) {
+                } else{}
+                if (checkBox49.isChecked()) {
+                    symptoms.setSeizuresyes("Yes");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "Yes";
-                } else if (checkBox50.isChecked()) {
+                } else{}
+                if (checkBox50.isChecked()) {
+                    symptoms.setSeizuresno("No");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "No";
-                } else if (checkBox51.isChecked()) {
+                } else{}
+                if (checkBox51.isChecked()) {
+                    symptoms.setNumbnessyes("Yes");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "Yes";
-                } else if (checkBox52.isChecked()) {
+                } else{}
+                if (checkBox52.isChecked()) {
+                    symptoms.setNumbnessno("No");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "No";
-                } else if (checkBox53.isChecked()) {
+                } else{}
+                if (checkBox53.isChecked()) {
+                    symptoms.setNauseayes("Yes");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "Yes";
-                } else if (checkBox54.isChecked()) {
+                } else{}
+                if (checkBox54.isChecked()) {
+                    symptoms.setNauseano("No");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "No";
-                } else if (checkBox55.isChecked()) {
+                } else{}
+                if (checkBox55.isChecked()) {
+                    symptoms.setConstipationyes("Yes");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "Yes";
-                } else if (checkBox56.isChecked()) {
+                } else{}
+                if (checkBox56.isChecked()) {
+                    symptoms.setConstipationno("No");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "No";
-                } else if (checkBox57.isChecked()) {
+                } else{}
+                if (checkBox57.isChecked()) {
+                    symptoms.setAbdominalpyes("Yes");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "Yes";
-                } else if (checkBox58.isChecked()) {
+                } else{}
+                if (checkBox58.isChecked()) {
+                    symptoms.setAbdominalpno("No");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "No";
-                } else if (checkBox59.isChecked()) {
+                } else{}
+                if (checkBox59.isChecked()) {
+                    symptoms.setChestpyes("Yes");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "Yes";
-                } else if (checkBox60.isChecked()) {
+                } else{}
+                if (checkBox60.isChecked()) {
+                    symptoms.setChestpno("No");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "No";
-                } else if (checkBox61.isChecked()) {
+                } else{}
+                if (checkBox61.isChecked()) {
+                    symptoms.setDiffbyes("Yes");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "Yes";
-                } else if (checkBox62.isChecked()) {
+                } else{}
+                if (checkBox62.isChecked()) {
+                    symptoms.setDiffbno("No");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "No";
-                } else if (checkBox63.isChecked()) {
+                } else{}
+                if (checkBox63.isChecked()) {
+                    symptoms.setSwellingyes("Yes");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "Yes";
-                } else if (checkBox64.isChecked()) {
+                } else{}
+                if (checkBox64.isChecked()) {
+                    symptoms.setSwellingno("No");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "No";
-                } else if (checkBox65.isChecked()) {
+                } else{}
+                if (checkBox65.isChecked()) {
+                    symptoms.setPalpitationsyes("Yes");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "Yes";
-                } else if (checkBox66.isChecked()) {
+                } else{}
+                if (checkBox66.isChecked()) {
+                    symptoms.setPalpitationsno("No");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "No";
-                } else if (checkBox67.isChecked()) {
+                } else{}
+                if (checkBox67.isChecked()) {
+                    symptoms.setWheezyes("Yes");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "Yes";
-                } else if (checkBox68.isChecked()) {
+                } else{}
+                if (checkBox68.isChecked()) {
+                    symptoms.setWheezno("No");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "No";
-                } else if (checkBox69.isChecked()) {
+                } else{}
+                if (checkBox69.isChecked()) {
+                    symptoms.setShortnessyes("Yes");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "Yes";
-                } else if (checkBox70.isChecked()) {
+                } else{}
+                if (checkBox70.isChecked()) {
+                    symptoms.setShortnessno("No");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "No";
-                } else if (checkBox71.isChecked()) {
+                } else{}
+                if (checkBox71.isChecked()) {
+                    symptoms.setCoughyes("Yes");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "Yes";
-                } else if (checkBox72.isChecked()) {
+                } else{}
+                if (checkBox72.isChecked()) {
+                    symptoms.setCoughno("No");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "No";
-                } else if (checkBox73.isChecked()) {
+                } else{}
+                if (checkBox73.isChecked()) {
+                    symptoms.setSleepyes("Yes");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "Yes";
-                } else if (checkBox74.isChecked()) {
+                } else{}
+                if (checkBox74.isChecked()) {
+                    symptoms.setSleepno("No");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "No";
-                } else if (checkBox75.isChecked()) {
+                } else{}
+                if (checkBox75.isChecked()) {
+                    symptoms.setJointpyes("Yes");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "Yes";
-                } else if (checkBox76.isChecked()) {
+                } else{}
+                if (checkBox76.isChecked()) {
+                    symptoms.setJointpno("No");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "No";
-                } else if (checkBox77.isChecked()) {
+                } else{}
+                if (checkBox77.isChecked()) {
+                    symptoms.setMusclewyes("Yes");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "Yes";
-                } else if (checkBox78.isChecked()) {
+                } else{}
+                if (checkBox78.isChecked()) {
+                    symptoms.setMusclewno("No");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "No";
-                } else if (checkBox79.isChecked()) {
+                } else{}
+                if (checkBox79.isChecked()) {
+                    symptoms.setMusclepyes("Yes");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "Yes";
-                } else if (checkBox80.isChecked()) {
+                } else{}
+                if (checkBox80.isChecked()) {
+                    symptoms.setMusclepno("No");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "No";
-                } else if (checkBox81.isChecked()) {
+                } else{}
+                if (checkBox81.isChecked()) {
+                    symptoms.setSorethroatyes("Yes");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "Yes";
-                } else if (checkBox82.isChecked()) {
+                } else{}
+                if (checkBox82.isChecked()) {
+                    symptoms.setSorethroatno("No");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "No";
-                } else if (checkBox83.isChecked()) {
+                } else{}
+                if (checkBox83.isChecked()) {
+                    symptoms.setSinusyes("Yes");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "Yes";
-                } else if (checkBox84.isChecked()) {
+                } else{}
+                if (checkBox84.isChecked()) {
+                    symptoms.setSinusno("No");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "No";
-                } else if (checkBox85.isChecked()) {
+                } else{}
+                if (checkBox85.isChecked()) {
+                    symptoms.setHearingpyes("Yes");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "Yes";
-                } else if (checkBox86.isChecked()) {
+                } else{}
+                if (checkBox86.isChecked()) {
+                    symptoms.setHearingpno("No");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "No";
-                } else if (checkBox87.isChecked()) {
+                } else{}
+                if (checkBox87.isChecked()) {
+                    symptoms.setHotyes("Yes");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "Yes";
-                } else if (checkBox88.isChecked()) {
+                } else{}
+                if (checkBox88.isChecked()) {
+                    symptoms.setHotno("No");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "No";
-                } else if (checkBox89.isChecked()) {
+                } else{}
+                if (checkBox89.isChecked()) {
+                    symptoms.setExcessyes("Yes");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "Yes";
-                } else if (checkBox90.isChecked()) {
+                } else{}
+                if (checkBox90.isChecked()) {
+                    symptoms.setExcessno("No");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "No";
-                } else if (checkBox91.isChecked()) {
+                } else{}
+                if (checkBox91.isChecked()) {
+                    symptoms.setSwollenyes("Yes");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "Yes";
-                } else if (checkBox92.isChecked()) {
+                } else{}
+                if (checkBox92.isChecked()) {
+                    symptoms.setSwollenno("No");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "No";
-                } else if (checkBox93.isChecked()) {
+                } else{}
+                if (checkBox93.isChecked()) {
+                    symptoms.setBruisingyes("Yes");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "Yes";
-                } else if (checkBox94.isChecked()) {
+                } else{}
+                if (checkBox94.isChecked()) {
+                    symptoms.setBruisingno("No");
+                    reference2.child(String.valueOf((maxid+1))).setValue(symptoms);
                     text = "No";
                 }
                 reference.child(String.valueOf(maxid+1)).setValue(complaintmodel);
+                reference1.child(String.valueOf(maxid+1)).setValue(medicalhistory);
+                reference2.child(String.valueOf(maxid+1)).setValue(symptoms);
                 Toast.makeText(getApplicationContext(),"Complaint sent Successfully",Toast.LENGTH_SHORT).show();
 
             }
