@@ -6,145 +6,144 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="15"
-8-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml
+8-->C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="28" />
-9-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml
+9-->C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:5:5-66
-11-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:5:22-64
+11-->C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml:5:5-66
+11-->C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml:5:22-64
 12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 12-->[com.google.firebase:firebase-database:16.0.4] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\2a298af55c5c34386b637cc869d3593f\jetified-firebase-database-16.0.4\AndroidManifest.xml:22:5-79
 12-->[com.google.firebase:firebase-database:16.0.4] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\2a298af55c5c34386b637cc869d3593f\jetified-firebase-database-16.0.4\AndroidManifest.xml:22:22-76
 13
 14    <application
-14-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:6:5-62:19
+14-->C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml:6:5-62:19
 15        android:allowBackup="true"
-15-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:7:9-35
+15-->C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml:7:9-35
 16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 16-->[androidx.core:core:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\b6b5951a20836cbe843a8e306a5032d5\core-1.1.0\AndroidManifest.xml:24:18-86
 17        android:debuggable="true"
 18        android:icon="@mipmap/ic_launcher"
-18-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:8:9-43
+18-->C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml:8:9-43
 19        android:label="@string/app_name"
-19-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:9:9-41
+19-->C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml:9:9-41
 20        android:roundIcon="@mipmap/ic_launcher_round"
-20-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:10:9-54
+20-->C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml:10:9-54
 21        android:supportsRtl="true"
-21-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:11:9-35
-22        android:testOnly="true"
-23        android:theme="@style/AppTheme.NoActionBar" >
-23-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:12:9-52
-24        <activity
-24-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:13:9-22:20
-25            android:name="com.example.ncdc_selftest.Activities.Splash"
-25-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:14:13-46
-26            android:screenOrientation="portrait" >
-26-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:15:13-49
-27            <intent-filter>
-27-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:16:13-21:29
-28                <action android:name="android.intent.action.VIEW" />
-28-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:17:17-69
-28-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:17:25-66
-29                <action android:name="android.intent.action.MAIN" />
-29-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:18:17-69
-29-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:18:25-66
-30
-31                <category android:name="android.intent.category.LAUNCHER" />
-31-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:20:17-77
-31-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:20:27-74
-32            </intent-filter>
-33        </activity>
-34        <activity
-34-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:23:9-31:20
-35            android:name="com.example.ncdc_selftest.Activities.Front_preview"
-35-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:24:13-53
-36            android:screenOrientation="portrait" >
-36-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:25:13-49
-37            <intent-filter>
-37-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:26:13-30:29
-38                <action android:name="android.intent.action.MAIN" />
-38-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:18:17-69
-38-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:18:25-66
-39
-40                <category android:name="android.intent.category.DEFAULT" />
-40-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:29:17-76
-40-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:29:27-73
-41            </intent-filter>
-42        </activity>
-43        <activity
-43-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:33:9-41:20
-44            android:name="com.example.ncdc_selftest.Activities.MainActivity"
-44-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:34:13-52
-45            android:screenOrientation="portrait" >
-45-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:35:13-49
-46            <intent-filter>
-46-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:26:13-30:29
-47                <action android:name="android.intent.action.MAIN" />
-47-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:18:17-69
-47-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:18:25-66
-48
-49                <category android:name="android.intent.category.DEFAULT" />
-49-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:29:17-76
-49-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:29:27-73
-50            </intent-filter>
-51        </activity>
-52        <activity
-52-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:43:9-45:61
-53            android:name="com.example.ncdc_selftest.Activities.Complaints"
-53-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:44:13-50
-54            android:screenOrientation="portrait" />
-54-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:45:13-49
-55        <activity
-55-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:47:9-49:61
-56            android:name="com.example.ncdc_selftest.Activities.Liveupdate"
-56-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:48:13-50
-57            android:screenOrientation="portrait" />
-57-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:49:13-49
-58        <activity
-58-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:51:9-53:61
-59            android:name="com.example.ncdc_selftest.Activities.Result"
-59-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:52:13-46
-60            android:screenOrientation="portrait" />
-60-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:53:13-49
-61        <activity
-61-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:55:9-57:61
-62            android:name="com.example.ncdc_selftest.Activities.Result2"
-62-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:56:13-47
-63            android:screenOrientation="portrait" />
-63-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:57:13-49
-64        <activity
-64-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:59:9-61:61
-65            android:name="com.example.ncdc_selftest.Activities.Result3"
-65-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:60:13-47
-66            android:screenOrientation="portrait" />
-66-->C:\Users\Israel Aderoju\Desktop\300l\NCDC SELFTEST\app\src\main\AndroidManifest.xml:61:13-49
-67        <activity
-67-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\5bef34a62e429d50c164d3061aef3419\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
-68            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-68-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\5bef34a62e429d50c164d3061aef3419\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
-69            android:exported="false"
-69-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\5bef34a62e429d50c164d3061aef3419\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
-70            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-70-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\5bef34a62e429d50c164d3061aef3419\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
-71
-72        <provider
-72-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\6331f9463bed117edda19b061beb1c47\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
-73            android:name="com.google.firebase.provider.FirebaseInitProvider"
-73-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\6331f9463bed117edda19b061beb1c47\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
-74            android:authorities="com.example.ncdc_selftest.firebaseinitprovider"
-74-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\6331f9463bed117edda19b061beb1c47\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
-75            android:exported="false"
-75-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\6331f9463bed117edda19b061beb1c47\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
-76            android:initOrder="100" />
-76-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\6331f9463bed117edda19b061beb1c47\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
-77
-78        <meta-data
-78-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\e1865a840c4c3e9534915f41c2eadcc2\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
-79            android:name="com.google.android.gms.version"
-79-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\e1865a840c4c3e9534915f41c2eadcc2\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
-80            android:value="@integer/google_play_services_version" />
-80-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\e1865a840c4c3e9534915f41c2eadcc2\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
-81    </application>
-82
-83</manifest>
+21-->C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml:11:9-35
+22        android:theme="@style/AppTheme.NoActionBar" >
+22-->C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml:12:9-52
+23        <activity
+23-->C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml:13:9-22:20
+24            android:name="com.example.ncdc_selftest.Activities.Splash"
+24-->C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml:14:13-46
+25            android:screenOrientation="portrait" >
+25-->C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml:15:13-49
+26            <intent-filter>
+26-->C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml:16:13-21:29
+27                <action android:name="android.intent.action.VIEW" />
+27-->C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml:17:17-69
+27-->C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml:17:25-66
+28                <action android:name="android.intent.action.MAIN" />
+28-->C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml:18:17-69
+28-->C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml:18:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml:20:17-77
+30-->C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml:20:27-74
+31            </intent-filter>
+32        </activity>
+33        <activity
+33-->C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml:23:9-31:20
+34            android:name="com.example.ncdc_selftest.Activities.Front_preview"
+34-->C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml:24:13-53
+35            android:screenOrientation="portrait" >
+35-->C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml:25:13-49
+36            <intent-filter>
+36-->C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml:26:13-30:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml:18:17-69
+37-->C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml:18:25-66
+38
+39                <category android:name="android.intent.category.DEFAULT" />
+39-->C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml:29:17-76
+39-->C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml:29:27-73
+40            </intent-filter>
+41        </activity>
+42        <activity
+42-->C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml:33:9-41:20
+43            android:name="com.example.ncdc_selftest.Activities.MainActivity"
+43-->C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml:34:13-52
+44            android:screenOrientation="portrait" >
+44-->C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml:35:13-49
+45            <intent-filter>
+45-->C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml:26:13-30:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml:18:17-69
+46-->C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml:18:25-66
+47
+48                <category android:name="android.intent.category.DEFAULT" />
+48-->C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml:29:17-76
+48-->C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml:29:27-73
+49            </intent-filter>
+50        </activity>
+51        <activity
+51-->C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml:43:9-45:61
+52            android:name="com.example.ncdc_selftest.Activities.Complaints"
+52-->C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml:44:13-50
+53            android:screenOrientation="portrait" />
+53-->C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml:45:13-49
+54        <activity
+54-->C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml:47:9-49:61
+55            android:name="com.example.ncdc_selftest.Activities.Liveupdate"
+55-->C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml:48:13-50
+56            android:screenOrientation="portrait" />
+56-->C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml:49:13-49
+57        <activity
+57-->C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml:51:9-53:61
+58            android:name="com.example.ncdc_selftest.Activities.Result"
+58-->C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml:52:13-46
+59            android:screenOrientation="portrait" />
+59-->C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml:53:13-49
+60        <activity
+60-->C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml:55:9-57:61
+61            android:name="com.example.ncdc_selftest.Activities.Result2"
+61-->C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml:56:13-47
+62            android:screenOrientation="portrait" />
+62-->C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml:57:13-49
+63        <activity
+63-->C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml:59:9-61:61
+64            android:name="com.example.ncdc_selftest.Activities.Result3"
+64-->C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml:60:13-47
+65            android:screenOrientation="portrait" />
+65-->C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml:61:13-49
+66        <activity
+66-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\5bef34a62e429d50c164d3061aef3419\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+67            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+67-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\5bef34a62e429d50c164d3061aef3419\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+68            android:exported="false"
+68-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\5bef34a62e429d50c164d3061aef3419\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+69            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+69-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\5bef34a62e429d50c164d3061aef3419\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+70
+71        <provider
+71-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\6331f9463bed117edda19b061beb1c47\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
+72            android:name="com.google.firebase.provider.FirebaseInitProvider"
+72-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\6331f9463bed117edda19b061beb1c47\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
+73            android:authorities="com.example.ncdc_selftest.firebaseinitprovider"
+73-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\6331f9463bed117edda19b061beb1c47\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
+74            android:exported="false"
+74-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\6331f9463bed117edda19b061beb1c47\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
+75            android:initOrder="100" />
+75-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\6331f9463bed117edda19b061beb1c47\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
+76
+77        <meta-data
+77-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\e1865a840c4c3e9534915f41c2eadcc2\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+78            android:name="com.google.android.gms.version"
+78-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\e1865a840c4c3e9534915f41c2eadcc2\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
+79            android:value="@integer/google_play_services_version" />
+79-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\e1865a840c4c3e9534915f41c2eadcc2\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+80    </application>
+81
+82</manifest>
