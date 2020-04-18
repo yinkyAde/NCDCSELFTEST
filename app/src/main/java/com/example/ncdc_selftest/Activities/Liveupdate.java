@@ -1,7 +1,5 @@
 package com.example.ncdc_selftest.Activities;
 
-//packDeathsC com.example.ncdc_selftest.Activities;
-
 import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
@@ -51,8 +49,7 @@ public class Liveupdate extends AppCompatActivity {
                 new Response.Listener<JSONArray>() {
                     @Override
                     public void onResponse(JSONArray response) {
-                        // Do something with response
-                        //mTextView.setText(response.toString());
+
 
                         // Process the JSON
                         try{
@@ -63,7 +60,7 @@ public class Liveupdate extends AppCompatActivity {
 
                                 // Get the current cases (json object) data
                                 String COUNTRY = cases.getString("country");
-                             //   Log.e("DEBUGGG", firstName);
+
                                 if (COUNTRY.equals("Nigeria") ){
                                     String confrimedC = cases.getString("cases");
                                     String DeathsC = cases.getString("deaths");
