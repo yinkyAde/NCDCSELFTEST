@@ -21,9 +21,11 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.util.Date;
+
 public class Liveupdate extends AppCompatActivity {
     private String url = "https://corona.lmao.ninja/v2/countries";
-    private TextView Totalconfirmed, TotalDeaths, TotalRecovered, TotalNewCases;
+    private TextView Totalconfirmed, TotalDeaths, TotalRecovered, TotalNewCases,Currentdate;
     private Context mContext;
     private Activity mActivity;
 
@@ -35,8 +37,15 @@ public class Liveupdate extends AppCompatActivity {
         TotalDeaths = findViewById(R.id.deaths);
         TotalRecovered = findViewById(R.id.discharged);
         TotalNewCases = findViewById(R.id.newcases);
+        Currentdate = findViewById(R.id.current);
         mContext = getApplicationContext();
         mActivity = Liveupdate.this;
+        apicall();
+        time();
+
+    }
+
+    public void apicall() {
         Toast.makeText(mContext, "Loading....", Toast.LENGTH_LONG).show();
 
         // Initialize a new RequestQueue instance
@@ -97,6 +106,13 @@ public class Liveupdate extends AppCompatActivity {
 
         // Add JsonArrayRequest to the RequestQueue
         requestQueue.add(jsonArrayRequest);
+    }
+
+    //get current date
+    public void time() {
+        String currentdate = java.text.DateFormat.getDateTimeInstance().format(new Date());
+        Currentdate.setText(currentdate);
+
     }
 
 }
