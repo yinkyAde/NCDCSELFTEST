@@ -6,14 +6,14 @@ INJECTED from C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app
 INJECTED from C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml:2:1-64:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\78d780e7e979f381c0cb40b5ded8691d\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\6d16290c97378708d50718ed6ea0b1c0\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
-MERGED from [com.google.firebase:firebase-database:16.0.4] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\2a298af55c5c34386b637cc869d3593f\jetified-firebase-database-16.0.4\AndroidManifest.xml:15:1-25:12
+MERGED from [com.google.firebase:firebase-database:16.0.4] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\d876b2468cfed097199bb6ea94055ee2\jetified-firebase-database-16.0.4\AndroidManifest.xml:15:1-25:12
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\55be576b1fb3cff6f9499b5d3d928b79\recyclerview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\91482f6452f8e2279fb096c6daca6c99\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\5bef34a62e429d50c164d3061aef3419\jetified-play-services-base-16.0.1\AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\6331f9463bed117edda19b061beb1c47\jetified-firebase-common-16.0.3\AndroidManifest.xml:2:1-17:12
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\d7b6bc6137b2bd7b1a1c21dac6543ac0\jetified-play-services-tasks-16.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\34ca1e9c27813dea4f6081580ac9508c\jetified-play-services-base-16.0.1\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\31eb8e31800d0e654fb78b4d5c436424\jetified-firebase-common-16.0.3\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\e2b3cbc9f20774f5accffd67b07c0cc1\jetified-play-services-tasks-16.0.1\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-database-collection:16.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\ee8d1d2e67fe5cefc11f0f771a27a22e\firebase-database-collection-16.0.0\AndroidManifest.xml:2:1-8:12
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\e1865a840c4c3e9534915f41c2eadcc2\jetified-play-services-basement-16.0.1\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\c94bd5a1cb59f226fd0aa41b9d139e6a\jetified-play-services-basement-16.0.1\AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\ab4d72fdc4263a03fc609ea1b14fbe0c\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\f02024937df418748afbe331234aa006\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\c5d349b176c72adc126b4a8399f3d7e2\appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -63,22 +63,22 @@ INJECTED from C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app
 		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
 ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml:5:5-66
-MERGED from [com.google.firebase:firebase-database:16.0.4] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\2a298af55c5c34386b637cc869d3593f\jetified-firebase-database-16.0.4\AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-database:16.0.4] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\2a298af55c5c34386b637cc869d3593f\jetified-firebase-database-16.0.4\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-database:16.0.4] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\d876b2468cfed097199bb6ea94055ee2\jetified-firebase-database-16.0.4\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-database:16.0.4] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\d876b2468cfed097199bb6ea94055ee2\jetified-firebase-database-16.0.4\AndroidManifest.xml:23:5-67
 	android:name
 		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml:5:22-64
 application
 ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml:6:5-62:19
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\6d16290c97378708d50718ed6ea0b1c0\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\6d16290c97378708d50718ed6ea0b1c0\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\5bef34a62e429d50c164d3061aef3419\jetified-play-services-base-16.0.1\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\5bef34a62e429d50c164d3061aef3419\jetified-play-services-base-16.0.1\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\6331f9463bed117edda19b061beb1c47\jetified-firebase-common-16.0.3\AndroidManifest.xml:9:5-15:19
-MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\6331f9463bed117edda19b061beb1c47\jetified-firebase-common-16.0.3\AndroidManifest.xml:9:5-15:19
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\d7b6bc6137b2bd7b1a1c21dac6543ac0\jetified-play-services-tasks-16.0.1\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\d7b6bc6137b2bd7b1a1c21dac6543ac0\jetified-play-services-tasks-16.0.1\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\e1865a840c4c3e9534915f41c2eadcc2\jetified-play-services-basement-16.0.1\AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\e1865a840c4c3e9534915f41c2eadcc2\jetified-play-services-basement-16.0.1\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\34ca1e9c27813dea4f6081580ac9508c\jetified-play-services-base-16.0.1\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\34ca1e9c27813dea4f6081580ac9508c\jetified-play-services-base-16.0.1\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\31eb8e31800d0e654fb78b4d5c436424\jetified-firebase-common-16.0.3\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\31eb8e31800d0e654fb78b4d5c436424\jetified-firebase-common-16.0.3\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\e2b3cbc9f20774f5accffd67b07c0cc1\jetified-play-services-tasks-16.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\e2b3cbc9f20774f5accffd67b07c0cc1\jetified-play-services-tasks-16.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\c94bd5a1cb59f226fd0aa41b9d139e6a\jetified-play-services-basement-16.0.1\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\c94bd5a1cb59f226fd0aa41b9d139e6a\jetified-play-services-basement-16.0.1\AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.core:core:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\b6b5951a20836cbe843a8e306a5032d5\core-1.1.0\AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\b6b5951a20836cbe843a8e306a5032d5\core-1.1.0\AndroidManifest.xml:24:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\ef2e7569653745383f2a88f459070658\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
@@ -173,22 +173,22 @@ MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Israel Aderoju\.gradle
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\78d780e7e979f381c0cb40b5ded8691d\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\6d16290c97378708d50718ed6ea0b1c0\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\6d16290c97378708d50718ed6ea0b1c0\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.firebase:firebase-database:16.0.4] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\2a298af55c5c34386b637cc869d3593f\jetified-firebase-database-16.0.4\AndroidManifest.xml:18:5-20:41
-MERGED from [com.google.firebase:firebase-database:16.0.4] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\2a298af55c5c34386b637cc869d3593f\jetified-firebase-database-16.0.4\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-database:16.0.4] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\d876b2468cfed097199bb6ea94055ee2\jetified-firebase-database-16.0.4\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-database:16.0.4] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\d876b2468cfed097199bb6ea94055ee2\jetified-firebase-database-16.0.4\AndroidManifest.xml:18:5-20:41
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\55be576b1fb3cff6f9499b5d3d928b79\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\55be576b1fb3cff6f9499b5d3d928b79\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\91482f6452f8e2279fb096c6daca6c99\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\91482f6452f8e2279fb096c6daca6c99\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\5bef34a62e429d50c164d3061aef3419\jetified-play-services-base-16.0.1\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\5bef34a62e429d50c164d3061aef3419\jetified-play-services-base-16.0.1\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\6331f9463bed117edda19b061beb1c47\jetified-firebase-common-16.0.3\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\6331f9463bed117edda19b061beb1c47\jetified-firebase-common-16.0.3\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\d7b6bc6137b2bd7b1a1c21dac6543ac0\jetified-play-services-tasks-16.0.1\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\d7b6bc6137b2bd7b1a1c21dac6543ac0\jetified-play-services-tasks-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\34ca1e9c27813dea4f6081580ac9508c\jetified-play-services-base-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\34ca1e9c27813dea4f6081580ac9508c\jetified-play-services-base-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\31eb8e31800d0e654fb78b4d5c436424\jetified-firebase-common-16.0.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\31eb8e31800d0e654fb78b4d5c436424\jetified-firebase-common-16.0.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\e2b3cbc9f20774f5accffd67b07c0cc1\jetified-play-services-tasks-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\e2b3cbc9f20774f5accffd67b07c0cc1\jetified-play-services-tasks-16.0.1\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-database-collection:16.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\ee8d1d2e67fe5cefc11f0f771a27a22e\firebase-database-collection-16.0.0\AndroidManifest.xml:6:5-44
 MERGED from [com.google.firebase:firebase-database-collection:16.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\ee8d1d2e67fe5cefc11f0f771a27a22e\firebase-database-collection-16.0.0\AndroidManifest.xml:6:5-44
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\e1865a840c4c3e9534915f41c2eadcc2\jetified-play-services-basement-16.0.1\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\e1865a840c4c3e9534915f41c2eadcc2\jetified-play-services-basement-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\c94bd5a1cb59f226fd0aa41b9d139e6a\jetified-play-services-basement-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\c94bd5a1cb59f226fd0aa41b9d139e6a\jetified-play-services-basement-16.0.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\ab4d72fdc4263a03fc609ea1b14fbe0c\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\ab4d72fdc4263a03fc609ea1b14fbe0c\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\f02024937df418748afbe331234aa006\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
@@ -260,30 +260,30 @@ INJECTED from C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app
 		ADDED from C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.firebase:firebase-database:16.0.4] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\2a298af55c5c34386b637cc869d3593f\jetified-firebase-database-16.0.4\AndroidManifest.xml:22:5-79
+ADDED from [com.google.firebase:firebase-database:16.0.4] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\d876b2468cfed097199bb6ea94055ee2\jetified-firebase-database-16.0.4\AndroidManifest.xml:22:5-79
 	android:name
-		ADDED from [com.google.firebase:firebase-database:16.0.4] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\2a298af55c5c34386b637cc869d3593f\jetified-firebase-database-16.0.4\AndroidManifest.xml:22:22-76
+		ADDED from [com.google.firebase:firebase-database:16.0.4] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\d876b2468cfed097199bb6ea94055ee2\jetified-firebase-database-16.0.4\AndroidManifest.xml:22:22-76
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\5bef34a62e429d50c164d3061aef3419\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\34ca1e9c27813dea4f6081580ac9508c\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\5bef34a62e429d50c164d3061aef3419\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\34ca1e9c27813dea4f6081580ac9508c\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\5bef34a62e429d50c164d3061aef3419\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\34ca1e9c27813dea4f6081580ac9508c\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\5bef34a62e429d50c164d3061aef3419\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\34ca1e9c27813dea4f6081580ac9508c\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
 provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\6331f9463bed117edda19b061beb1c47\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
+ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\31eb8e31800d0e654fb78b4d5c436424\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
 	android:authorities
-		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\6331f9463bed117edda19b061beb1c47\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\31eb8e31800d0e654fb78b4d5c436424\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\6331f9463bed117edda19b061beb1c47\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\31eb8e31800d0e654fb78b4d5c436424\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
 	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\6331f9463bed117edda19b061beb1c47\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\31eb8e31800d0e654fb78b4d5c436424\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\6331f9463bed117edda19b061beb1c47\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\31eb8e31800d0e654fb78b4d5c436424\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\e1865a840c4c3e9534915f41c2eadcc2\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\c94bd5a1cb59f226fd0aa41b9d139e6a\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\e1865a840c4c3e9534915f41c2eadcc2\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\c94bd5a1cb59f226fd0aa41b9d139e6a\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\e1865a840c4c3e9534915f41c2eadcc2\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\c94bd5a1cb59f226fd0aa41b9d139e6a\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58

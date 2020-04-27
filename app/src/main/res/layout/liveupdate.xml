@@ -22,7 +22,7 @@
     <androidx.cardview.widget.CardView
         android:id="@+id/cardview"
         android:layout_width="match_parent"
-        android:layout_height="300dp"
+        android:layout_height="335dp"
         android:layout_marginRight="8dp"
         android:layout_marginLeft="8dp"
         app:cardCornerRadius="5dp"
@@ -72,7 +72,7 @@
                 android:layout_marginLeft="270dp"
                 android:padding="4dp">
                 <TextView
-                    android:id="@+id/total_conf"
+                    android:id="@+id/total"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="000"
@@ -80,7 +80,7 @@
                     android:textColor="#000"
                     android:textSize="25dp"
                     android:gravity="center_vertical"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="5dp"
                     android:layout_marginLeft="15dp"/>
             </LinearLayout>
         </RelativeLayout>
@@ -123,7 +123,7 @@
                     android:textColor="#fff"
                     android:textSize="25dp"
                     android:gravity="center_vertical"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="5dp"
                     android:layout_marginLeft="15dp"/>
             </LinearLayout>
         </RelativeLayout>
@@ -166,7 +166,50 @@
                     android:textColor="#fff"
                     android:textSize="25dp"
                     android:gravity="center_vertical"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="15dp"/>
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/layout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp">
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:background="@drawable/blue"
+                android:layout_marginTop="165dp"
+                android:layout_marginLeft="8dp"
+                android:padding="4dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NEW CASES"
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:textSize="25dp"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginLeft="65dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="85dp"
+                android:layout_height="50dp"
+                android:background="@drawable/blue"
+                android:layout_marginTop="165dp"
+                android:layout_marginLeft="270dp"
+                android:padding="4dp">
+                <TextView
+                    android:id="@+id/newcases"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="000"
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:textSize="25dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="5dp"
                     android:layout_marginLeft="15dp"/>
             </LinearLayout>
         </RelativeLayout>
@@ -196,7 +239,7 @@
         android:layout_height="wrap_content"
         android:text="Twitter/Facebook:@NCDCgov/COVID19.NCDC.GOV.NG"
         android:textColor="#fff"
-        android:layout_marginTop="410dp"
+        android:layout_marginTop="445dp"
         android:layout_marginLeft="110dp"/>
     <TextView
         android:id="@+id/result"

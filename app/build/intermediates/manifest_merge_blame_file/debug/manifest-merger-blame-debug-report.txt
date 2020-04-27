@@ -14,8 +14,8 @@
 11-->C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml:5:5-66
 11-->C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml:5:22-64
 12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-12-->[com.google.firebase:firebase-database:16.0.4] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\2a298af55c5c34386b637cc869d3593f\jetified-firebase-database-16.0.4\AndroidManifest.xml:22:5-79
-12-->[com.google.firebase:firebase-database:16.0.4] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\2a298af55c5c34386b637cc869d3593f\jetified-firebase-database-16.0.4\AndroidManifest.xml:22:22-76
+12-->[com.google.firebase:firebase-database:16.0.4] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\d876b2468cfed097199bb6ea94055ee2\jetified-firebase-database-16.0.4\AndroidManifest.xml:22:5-79
+12-->[com.google.firebase:firebase-database:16.0.4] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\d876b2468cfed097199bb6ea94055ee2\jetified-firebase-database-16.0.4\AndroidManifest.xml:22:22-76
 13
 14    <application
 14-->C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml:6:5-62:19
@@ -119,31 +119,31 @@
 65            android:screenOrientation="portrait" />
 65-->C:\Users\Israel Aderoju\Desktop\300l\NCDCSELFTEST\NCDCSELFTEST\app\src\main\AndroidManifest.xml:61:13-49
 66        <activity
-66-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\5bef34a62e429d50c164d3061aef3419\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+66-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\34ca1e9c27813dea4f6081580ac9508c\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
 67            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-67-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\5bef34a62e429d50c164d3061aef3419\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+67-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\34ca1e9c27813dea4f6081580ac9508c\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
 68            android:exported="false"
-68-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\5bef34a62e429d50c164d3061aef3419\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+68-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\34ca1e9c27813dea4f6081580ac9508c\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
 69            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-69-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\5bef34a62e429d50c164d3061aef3419\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+69-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\34ca1e9c27813dea4f6081580ac9508c\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
 70
 71        <provider
-71-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\6331f9463bed117edda19b061beb1c47\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
+71-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\31eb8e31800d0e654fb78b4d5c436424\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
 72            android:name="com.google.firebase.provider.FirebaseInitProvider"
-72-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\6331f9463bed117edda19b061beb1c47\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
+72-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\31eb8e31800d0e654fb78b4d5c436424\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
 73            android:authorities="com.example.ncdc_selftest.firebaseinitprovider"
-73-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\6331f9463bed117edda19b061beb1c47\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
+73-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\31eb8e31800d0e654fb78b4d5c436424\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
 74            android:exported="false"
-74-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\6331f9463bed117edda19b061beb1c47\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
+74-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\31eb8e31800d0e654fb78b4d5c436424\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
 75            android:initOrder="100" />
-75-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\6331f9463bed117edda19b061beb1c47\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
+75-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\31eb8e31800d0e654fb78b4d5c436424\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
 76
 77        <meta-data
-77-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\e1865a840c4c3e9534915f41c2eadcc2\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+77-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\c94bd5a1cb59f226fd0aa41b9d139e6a\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
 78            android:name="com.google.android.gms.version"
-78-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\e1865a840c4c3e9534915f41c2eadcc2\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
+78-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\c94bd5a1cb59f226fd0aa41b9d139e6a\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
 79            android:value="@integer/google_play_services_version" />
-79-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\e1865a840c4c3e9534915f41c2eadcc2\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+79-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Israel Aderoju\.gradle\caches\transforms-2\files-2.1\c94bd5a1cb59f226fd0aa41b9d139e6a\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
 80    </application>
 81
 82</manifest>
