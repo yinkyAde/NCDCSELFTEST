@@ -47,7 +47,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <LinearLayout
-                android:layout_width="250dp"
+                android:layout_width="235dp"
                 android:layout_height="50dp"
                 android:background="@drawable/yellow"
                 android:layout_marginTop="60dp"
@@ -59,17 +59,17 @@
                     android:text="TOTAL CONFIRMED"
                     android:textStyle="bold"
                     android:textColor="#000"
-                    android:textSize="25dp"
+                    android:textSize="22dp"
                     android:gravity="center_vertical"
                     android:layout_marginTop="6dp"
                     android:layout_marginLeft="15dp"/>
             </LinearLayout>
             <LinearLayout
-                android:layout_width="85dp"
+                android:layout_width="90dp"
                 android:layout_height="50dp"
                 android:background="@drawable/yellow"
                 android:layout_marginTop="60dp"
-                android:layout_marginLeft="270dp"
+                android:layout_marginLeft="255dp"
                 android:padding="4dp">
                 <TextView
                     android:id="@+id/total"
@@ -81,7 +81,7 @@
                     android:textSize="25dp"
                     android:gravity="center_vertical"
                     android:layout_marginTop="5dp"
-                    android:layout_marginLeft="15dp"/>
+                    android:layout_marginLeft="10dp"/>
             </LinearLayout>
         </RelativeLayout>
         <RelativeLayout
@@ -90,7 +90,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="60dp">
             <LinearLayout
-                android:layout_width="250dp"
+                android:layout_width="235dp"
                 android:layout_height="50dp"
                 android:background="@drawable/green"
                 android:layout_marginTop="70dp"
@@ -102,17 +102,17 @@
                     android:text="DISCHARGED"
                     android:textStyle="bold"
                     android:textColor="#ffffff"
-                    android:textSize="25dp"
+                    android:textSize="22dp"
                     android:gravity="center_vertical"
                     android:layout_marginTop="6dp"
-                    android:layout_marginLeft="50dp"/>
+                    android:layout_marginLeft="45dp"/>
             </LinearLayout>
             <LinearLayout
-                android:layout_width="85dp"
+                android:layout_width="90dp"
                 android:layout_height="50dp"
                 android:background="@drawable/green"
                 android:layout_marginTop="70dp"
-                android:layout_marginLeft="270dp"
+                android:layout_marginLeft="255dp"
                 android:padding="4dp">
                 <TextView
                     android:id="@+id/discharged"
@@ -124,7 +124,7 @@
                     android:textSize="25dp"
                     android:gravity="center_vertical"
                     android:layout_marginTop="5dp"
-                    android:layout_marginLeft="15dp"/>
+                    android:layout_marginLeft="10dp"/>
             </LinearLayout>
         </RelativeLayout>
         <RelativeLayout
@@ -133,7 +133,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="100dp">
             <LinearLayout
-                android:layout_width="250dp"
+                android:layout_width="235dp"
                 android:layout_height="50dp"
                 android:background="@drawable/red"
                 android:layout_marginTop="100dp"
@@ -145,17 +145,17 @@
                     android:text="DEATHS"
                     android:textStyle="bold"
                     android:textColor="#fff"
-                    android:textSize="25dp"
+                    android:textSize="22dp"
                     android:gravity="center_horizontal"
                     android:layout_marginTop="6dp"
-                    android:layout_marginLeft="80dp"/>
+                    android:layout_marginLeft="75dp"/>
             </LinearLayout>
             <LinearLayout
-                android:layout_width="85dp"
+                android:layout_width="90dp"
                 android:layout_height="50dp"
                 android:background="@drawable/red"
                 android:layout_marginTop="100dp"
-                android:layout_marginLeft="270dp"
+                android:layout_marginLeft="255dp"
                 android:padding="4dp">
                 <TextView
                     android:id="@+id/deaths"
@@ -167,7 +167,7 @@
                     android:textSize="25dp"
                     android:gravity="center_vertical"
                     android:layout_marginTop="5dp"
-                    android:layout_marginLeft="15dp"/>
+                    android:layout_marginLeft="10dp"/>
             </LinearLayout>
         </RelativeLayout>
         <RelativeLayout
@@ -176,7 +176,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="100dp">
             <LinearLayout
-                android:layout_width="250dp"
+                android:layout_width="235dp"
                 android:layout_height="50dp"
                 android:background="@drawable/blue"
                 android:layout_marginTop="165dp"
@@ -188,17 +188,17 @@
                     android:text="NEW CASES"
                     android:textStyle="bold"
                     android:textColor="#fff"
-                    android:textSize="25dp"
+                    android:textSize="22dp"
                     android:gravity="center_horizontal"
                     android:layout_marginTop="6dp"
-                    android:layout_marginLeft="65dp"/>
+                    android:layout_marginLeft="60dp"/>
             </LinearLayout>
             <LinearLayout
-                android:layout_width="85dp"
+                android:layout_width="90dp"
                 android:layout_height="50dp"
                 android:background="@drawable/blue"
                 android:layout_marginTop="165dp"
-                android:layout_marginLeft="270dp"
+                android:layout_marginLeft="255dp"
                 android:padding="4dp">
                 <TextView
                     android:id="@+id/newcases"
@@ -210,7 +210,7 @@
                     android:textSize="25dp"
                     android:gravity="center_vertical"
                     android:layout_marginTop="5dp"
-                    android:layout_marginLeft="15dp"/>
+                    android:layout_marginLeft="10dp"/>
             </LinearLayout>
         </RelativeLayout>
 

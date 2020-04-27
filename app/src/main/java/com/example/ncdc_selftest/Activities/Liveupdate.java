@@ -22,8 +22,8 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 public class Liveupdate extends AppCompatActivity {
-    private      String url = "https://corona.lmao.ninja/v2/countries";
-    private TextView Totalconfirmed, TotalDeaths, TotalRecovered;
+    private String url = "https://corona.lmao.ninja/v2/countries";
+    private TextView Totalconfirmed, TotalDeaths, TotalRecovered, TotalNewCases;
     private Context mContext;
     private Activity mActivity;
 
@@ -31,12 +31,13 @@ public class Liveupdate extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.liveupdate);
-        Totalconfirmed = findViewById(R.id.total_conf);
+        Totalconfirmed = findViewById(R.id.total);
         TotalDeaths = findViewById(R.id.deaths);
         TotalRecovered = findViewById(R.id.discharged);
+        TotalNewCases = findViewById(R.id.newcases);
         mContext = getApplicationContext();
         mActivity = Liveupdate.this;
-        Toast.makeText(mContext,"Loading....", Toast.LENGTH_SHORT).show();
+        Toast.makeText(mContext, "Loading....", Toast.LENGTH_LONG).show();
 
         // Initialize a new RequestQueue instance
         RequestQueue requestQueue = Volley.newRequestQueue(mContext);
@@ -52,42 +53,42 @@ public class Liveupdate extends AppCompatActivity {
 
 
                         // Process the JSON
-                        try{
+                        try {
                             // Loop through the array elements
-                            for(int i=0;i<response.length();i++){
+                            for (int i = 0; i < response.length(); i++) {
                                 // Get current json object
-                                JSONObject cases= response.getJSONObject(i);
+                                JSONObject cases = response.getJSONObject(i);
 
                                 // Get the current cases (json object) data
                                 String COUNTRY = cases.getString("country");
 
-                                if (COUNTRY.equals("Nigeria") ){
+                                if (COUNTRY.equals("Nigeria")) {
                                     String confrimedC = cases.getString("cases");
                                     String DeathsC = cases.getString("deaths");
                                     String recovered = cases.getString("recovered");
+                                    String NewCases = cases.getString("todayCases");
 
                                     // Display the formatted json data in text view
-                                Totalconfirmed.setText(confrimedC);   
-                                TotalDeaths.setText(DeathsC); 
-                                TotalRecovered.setText(recovered);
+                                    Totalconfirmed.setText(confrimedC);
+                                    TotalDeaths.setText(DeathsC);
+                                    TotalRecovered.setText(recovered);
+                                    TotalNewCases.setText(NewCases);
 
-                                    Toast.makeText(mContext,"Successful", Toast.LENGTH_SHORT).show();
-
-
+                                    Toast.makeText(mContext, "Live Update Successful", Toast.LENGTH_SHORT).show();
 
 
                                 }
                             }
-                        }catch (JSONException e){
+                        } catch (JSONException e) {
                             e.printStackTrace();
                         }
                     }
                 },
-                new Response.ErrorListener(){
+                new Response.ErrorListener() {
                     @Override
-                    public void onErrorResponse(VolleyError error){
+                    public void onErrorResponse(VolleyError error) {
                         // Do something when error occurred
-                        Toast.makeText(mContext,"Error...", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(mContext, "Error... Please Check Internet Connection", Toast.LENGTH_LONG).show();
                         error.printStackTrace();
 
                     }
@@ -98,5 +99,5 @@ public class Liveupdate extends AppCompatActivity {
         requestQueue.add(jsonArrayRequest);
     }
 
-        }
+}
 

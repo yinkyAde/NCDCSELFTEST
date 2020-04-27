@@ -1,8 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Israel Aderoju\\Desktop\\300l\\NCDC SELFTEST\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-kn\\values-kn.xml",
+            "outputFile": "C:\\Users\\Israel Aderoju\\Desktop\\300l\\NCDCSELFTEST\\NCDCSELFTEST\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-kn\\values-kn.xml",
             "map": [
+                {
+                    "source": "C:\\Users\\Israel Aderoju\\.gradle\\caches\\transforms-2\\files-2.1\\951b5e7f354daaaf8db57d3e12181016\\play-services-base-17.0.0\\res\\values-kn\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "245,354,556,687,800,1002,1129,1263,1387,1596,1707,1898,2031,2235,2418,2513,2602",
+                        "endColumns": "108,201,130,112,201,126,133,123,208,110,190,132,203,182,94,88,109",
+                        "endOffsets": "353,555,686,799,1001,1128,1262,1386,1595,1706,1897,2030,2234,2417,2512,2601,2711"
+                    },
+                    "to": {
+                        "startLines": "29,30,31,32,33,34,35,36,38,39,40,41,42,43,44,45,46",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2859,2972,3174,3309,3426,3628,3759,3897,4230,4439,4554,4745,4882,5086,5273,5372,5465",
+                        "endColumns": "112,201,134,116,201,130,137,127,208,114,190,136,203,186,98,92,113",
+                        "endOffsets": "2967,3169,3304,3421,3623,3754,3892,4020,4434,4549,4740,4877,5081,5268,5367,5460,5574"
+                    }
+                },
                 {
                     "source": "C:\\Users\\Israel Aderoju\\.gradle\\caches\\transforms-2\\files-2.1\\78d780e7e979f381c0cb40b5ded8691d\\appcompat-1.1.0\\res\\values-kn\\values-kn.xml",
                     "from": {
@@ -21,40 +38,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Israel Aderoju\\.gradle\\caches\\transforms-2\\files-2.1\\5bef34a62e429d50c164d3061aef3419\\jetified-play-services-base-16.0.1\\res\\values-kn\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "245,354,556,687,800,1002,1129,1263,1387,1596,1707,1898,2031,2235,2418,2513,2602",
-                        "endColumns": "108,201,130,112,201,126,133,123,208,110,190,132,203,182,94,88,109",
-                        "endOffsets": "353,555,686,799,1001,1128,1262,1386,1595,1706,1897,2030,2234,2417,2512,2601,2711"
-                    },
-                    "to": {
-                        "startLines": "29,30,31,32,33,34,35,36,38,39,40,41,42,43,44,45,46",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "2859,2972,3174,3309,3426,3628,3759,3897,4230,4439,4554,4745,4882,5086,5273,5372,5465",
-                        "endColumns": "112,201,134,116,201,130,137,127,208,114,190,136,203,186,98,92,113",
-                        "endOffsets": "2967,3169,3304,3421,3623,3754,3892,4020,4434,4549,4740,4877,5081,5268,5367,5460,5574"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Israel Aderoju\\.gradle\\caches\\transforms-2\\files-2.1\\e1865a840c4c3e9534915f41c2eadcc2\\jetified-play-services-basement-16.0.1\\res\\values-kn\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "204",
-                        "endOffsets": "451"
-                    },
-                    "to": {
-                        "startLines": "37",
-                        "startColumns": "4",
-                        "startOffsets": "4025",
-                        "endColumns": "204",
-                        "endOffsets": "4225"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Israel Aderoju\\.gradle\\caches\\transforms-2\\files-2.1\\b6b5951a20836cbe843a8e306a5032d5\\core-1.1.0\\res\\values-kn\\values-kn.xml",
                     "from": {
                         "startLines": "2",
@@ -69,6 +52,23 @@
                         "startOffsets": "5661",
                         "endColumns": "100",
                         "endOffsets": "5757"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Israel Aderoju\\.gradle\\caches\\transforms-2\\files-2.1\\f4346f615551480d08dbb170b9fc1504\\jetified-play-services-basement-17.0.0\\res\\values-kn\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "204",
+                        "endOffsets": "451"
+                    },
+                    "to": {
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "4025",
+                        "endColumns": "204",
+                        "endOffsets": "4225"
                     }
                 }
             ]
