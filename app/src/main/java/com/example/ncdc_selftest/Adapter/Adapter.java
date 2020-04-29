@@ -2,6 +2,7 @@ package com.example.ncdc_selftest.Adapter;
 
 import android.content.Context;
 import android.content.Intent;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,6 +14,7 @@ import androidx.annotation.NonNull;
 import androidx.viewpager.widget.PagerAdapter;
 
 import com.example.ncdc_selftest.Activities.Result;
+import com.example.ncdc_selftest.Activities.Result2;
 import com.example.ncdc_selftest.Activities.Result3;
 import com.example.ncdc_selftest.Model.Model;
 import com.example.ncdc_selftest.R;
@@ -25,10 +27,12 @@ public class Adapter extends PagerAdapter {
 
     Button button1;
     Button button2;
-    int clickcount = 0;
+    int clickcount1 = 0;
+    int clickcount2 = 0;
     private List<Model> models;
     private LayoutInflater layoutInflater;
     private Context context;
+    int  [] count = new int [12];
 
     public Adapter(List<Model> models, Context context) {
         this.models = models;
@@ -73,32 +77,58 @@ public class Adapter extends PagerAdapter {
 //                // finish();
 //            }
 //        });
-        button1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                clickcount = clickcount + 1;
 
-                if (clickcount == 12) {
-                    Intent intent = new Intent(context, Result.class);
-                    context.startActivity(intent);
-                }
-            }
 
-        });
+   button1.setOnClickListener(new View.OnClickListener() {
+       @Override
+       public void onClick(View v) {
 
-        button2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                clickcount = clickcount + 1;
+           if (count[position] <= 0){
+               count [position] = 1;
+           }
+           for (int i=0; i<count.length;i++){
+               if (count[i] != 0){
+                   if (count[i] == 1){
+                       clickcount1 += 1;
+                   }
+               }else {
+                   clickcount1 = 0;
+                   clickcount2 = 0;
+               }
+           } if (clickcount1 >= 9) {
+               Intent intent = new Intent(context, Result.class);
+               context.startActivity(intent);
+           }else if ((clickcount1 >4) && (clickcount1 <9)){
+               Intent intent = new Intent (context, Result2.class);
+               context.startActivity(intent);
+           }
+       }
+   });
 
-                if (clickcount == 12) {
-                    Intent intent = new Intent(context, Result3.class);
-                    context.startActivity(intent);
-                }
-            }
-
-        });
-
+   button2.setOnClickListener(new View.OnClickListener() {
+       @Override
+       public void onClick(View v) {
+           if (count[position] <= 0){
+               count [position] = 2;
+           }
+           for (int i=0; i<count.length;i++){
+               if (count[i] != 0){
+                   if (count[i] == 2){
+                       clickcount2 += 1;
+                   }
+               }else {
+                   clickcount1 = 0;
+                   clickcount2 = 0;
+               }
+           } if (clickcount2 >= 9) {
+               Intent intent = new Intent(context, Result3.class);
+               context.startActivity(intent);
+           }else if ((clickcount2 >4) && (clickcount2 <9)){
+               Intent intent = new Intent( context, Result2.class);
+               context.startActivity(intent);
+           }
+       }
+   });
 
 
         container.addView(view, 0);
